@@ -2,26 +2,11 @@
 /*--------------------------------------------------------------
 # HABILIDADES
 --------------------------------------------------------------*/
-
-.skill { 
-
-    display: grid;
-    grid-template-columns: 1fr;
-
-    height: 100%; 
-    
-    .skill__tecnologias{ 
+.skill__tecnologias{ 
         
-        width: 100%;
-        padding: 2rem;
-
-        h2{
-            margin: 1.5rem 2rem;
-        }
+    h2{
+        margin: 1.5rem 2rem;
     }
-
-
-    
 }
 
 .software-skill {
@@ -54,6 +39,17 @@
         padding-top: 0.5rem;
 
 }
+
+@media screen and (max-width: 576px) { 
+
+    .software-skill {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    
+    }
+
+ }
 
 
 

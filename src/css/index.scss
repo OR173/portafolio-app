@@ -15,42 +15,6 @@
 @import 'layout/miscelanea';
 
 
-// sass/
-// |
-// |– utilities/
-// |   |– _variables.scss    // Variables
-// |   |– _functions.scss    // Funciones
-// |   |– _mixins.scss       // Mixins
-// |
-// |– base/
-// |   |– _reset.scss        // Reset/normalize
-// |   |– _typo.scss   // Tipografías
-// |
-// |– components
-// |   |– _buttons.acss      // Bot
-// |   |– _jumbo.scss     // Jumbo
-// |
-// |– layout/
-// |   |– _navigation.scss   // Navegación
-// |   |– _grid.scss         // Grid
-// |   |– _header.scss       // Header
-// |   |– _footer.scss       // Footer
-// |   |– _forms.scss        // Formularios
-// |
-// |– views/
-// |   |– _home.scss         // Estilos de la página de inicio
-// |   |– _contact.scss      // Estilos de la página de contacto
-// |
-// |– themes/
-// |   |– _theme.scss        // Default theme
-// |   |– _admin.scss        // Admin theme
-// |
-// |– vendors/
-// |   |– _bootstrap.scss    // Bootstrap
-// |   |– _jquery-ui.scss    // jQuery UI
-// |
-// |– main.scss              // Archivo principal
-
 // @import 'utilities/variables';
 // @import 'utilities/functions';
 // @import 'utilities/mixins';
@@ -77,3 +41,46 @@
 // @import 'themes/admin';
 
 // Fuente https://latteandcode.medium.com/c%C3%B3mo-organizar-los-archivos-sass-de-tu-proyecto-c8b02242d95
+
+// @mixin tablet {
+//     @media screen and (max-width: 768px) {
+//         @content;
+//     }
+// }
+
+// @mixin telefono {
+//     @media screen and (max-width: 576px) {
+//         @content;
+//     }
+//}
+
+//breakpoints simples
+// 576px para teléfonos móviles
+// 768px para las tabletas
+// 992px para portátiles
+// 1200px para los grandes dispositivos
+
+//breakpoints completos
+// 0px a 320px movil pequeño
+// 321px a 480px movil grande
+// 481px a 768px tables pequeñas
+// 769px a 960px tables grandes
+// 961px a 1024px laptos pequeñas
+// 1025px a 1328px monitores grandes
+
+// // Small devices (landscape phones, 576px and up)
+// @media screen and (max-width: 576px) { ... }
+
+// // Medium devices (tablets, 768px and up)
+// @media screen and (max-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media screen and (max-width: 992px) { ... }
+
+// // X-Large devices (large desktops, 1200px and up)
+// @media screen and (max-width: 1200px) { ... }
+
+// // XX-Large devices (larger desktops, 1400px and up)
+// @media screen and (max-width: 1400px) { ... }
+
+// @media screen and (max-width: 1400px) { ... }

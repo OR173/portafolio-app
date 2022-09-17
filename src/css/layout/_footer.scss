@@ -1,13 +1,12 @@
 
 .footer{   
-    
-    width: 100%;
-    height: auto;
+    background-color: tomato;
+    position: relative;
 
     margin: 10rem 0 0 0; 
 
-    h1{     
-        
+    h1{         background-color: blue;
+        position: absolute;
         font-family: $myNombre;
         font-weight: bold;
         font-size: 3rem;
@@ -22,10 +21,11 @@
     }
 }
 
-.footer__nav{   
+.footer__nav{   background-color: red;
 
+    position: absolute;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 10rem;
     
     ul{ 
         display: flex;

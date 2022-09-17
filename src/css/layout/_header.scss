@@ -59,5 +59,13 @@ p{
     
     max-width: 99.2rem;
     text-align: center;
- }
+}
+
+.contenedores{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+}
 

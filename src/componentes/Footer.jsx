@@ -1,8 +1,8 @@
 
 function Footer() {   return( 
 
-    <footer>
-    <section className="footer">
+    <footer className="footer contenedores">
+    
         <h1>orestes alejandro fleitas méndez</h1>
         <div className="footer__nav">
             <ul>
@@ -39,7 +39,7 @@ function Footer() {   return(
         <div className="footer__copyright">
             <h3>Todos los derechos reservados.</h3>
         </div>
-    </section>
+
 </footer>
 
 

@@ -1,31 +1,12 @@
 
-.profile-image{
-    background-image: url("./img/fotoperfil2.png");
-}
-
-
 .saludo {   
-    position: relative;
-    display: grid;
+    
     grid-template-columns: 1fr 1fr;
-    width: 100%;
 
     .saludo__img {   
 
-        display: block;
-        text-align: center;
-
-        
-        width: 100%;
         padding: 3rem;
-
-        
-        img {
-   
-            width: 32rem;
-            
-
-        }
+        text-align: center;
 
     }
 
@@ -44,6 +25,12 @@
     h1 {
         margin-left: 3rem;
     }
+
+}
+
+.profile-image{
+    background-image: url("./img/fotoperfil2.png");
+    background-repeat: no-repeat;
 
 }
 

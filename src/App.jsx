@@ -1,4 +1,3 @@
-import './css/index.css'
 
 import Nav from './componentes/Nav.jsx'
 import Saludo from './componentes/Saludo.jsx'
@@ -12,7 +11,7 @@ function App() {
     
     <>
       <header>
-        <Nav />
+        {/* <Nav /> */}
       </header>
       <main>
         <Saludo />

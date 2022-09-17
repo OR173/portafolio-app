@@ -365,6 +365,14 @@ p {
   text-align: center;
 }
 
+.contenedores {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+}
+
 .nav_static {
   display: flex;
   align-items: center;
@@ -471,24 +479,12 @@ p {
   color: black;
 }
 
-.profile-image {
-  background-image: url("./img/fotoperfil2.png");
-}
-
 .saludo {
-  position: relative;
-  display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 100%;
 }
 .saludo .saludo__img {
-  display: block;
-  text-align: center;
-  width: 100%;
   padding: 3rem;
-}
-.saludo .saludo__img img {
-  width: 32rem;
+  text-align: center;
 }
 .saludo .saludo__text {
   display: flex;
@@ -499,6 +495,11 @@ p {
 }
 .saludo h1 {
   margin-left: 3rem;
+}
+
+.profile-image {
+  background-image: url("./img/fotoperfil2.png");
+  background-repeat: no-repeat;
 }
 
 .active_barss {
@@ -534,16 +535,7 @@ p {
 /*--------------------------------------------------------------
 # HABILIDADES
 --------------------------------------------------------------*/
-.skill {
-  display: grid;
-  grid-template-columns: 1fr;
-  height: 100%;
-}
-.skill .skill__tecnologias {
-  width: 100%;
-  padding: 2rem;
-}
-.skill .skill__tecnologias h2 {
+.skill__tecnologias h2 {
   margin: 1.5rem 2rem;
 }
 
@@ -567,9 +559,11 @@ p {
   padding-top: 0.5rem;
 }
 
-.proyecto {
-  width: 100%;
-  height: auto;
+@media screen and (max-width: 576px) {
+  .software-skill {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 .proyecto ul {
   display: grid;
@@ -590,11 +584,13 @@ p {
 }
 
 .footer {
-  width: 100%;
-  height: auto;
+  background-color: tomato;
+  position: relative;
   margin: 10rem 0 0 0;
 }
 .footer h1 {
+  background-color: blue;
+  position: absolute;
   font-family: "Bakbak One", cursive;
   font-weight: bold;
   font-size: 3rem;
@@ -606,8 +602,10 @@ p {
 }
 
 .footer__nav {
+  background-color: red;
+  position: absolute;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 10rem;
 }
 .footer__nav ul {
   display: flex;
@@ -686,10 +684,6 @@ p {
 
 ::-webkit-scrollbar {
   width: 0rem;
-}
-
-.hide {
-  display: none;
 }
 
 /* ===================================================================
