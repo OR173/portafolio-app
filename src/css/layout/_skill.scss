@@ -2,19 +2,13 @@
 /*--------------------------------------------------------------
 # HABILIDADES
 --------------------------------------------------------------*/
-.skill__tecnologias{ 
-        
-    h2{
-        margin: 1.5rem 2rem;
-    }
-}
 
 .software-skill {
 
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     
-    margin-top: 2rem;
+    margin-top: 5rem;
     list-style: none;
     font-size: 2rem;
 

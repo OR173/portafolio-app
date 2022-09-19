@@ -3,7 +3,6 @@ function Footer() {   return(
 
     <footer className="footer contenedores">
     
-        <h1>orestes alejandro fleitas méndez</h1>
         <div className="footer__nav">
             <ul>
                 <li><a href="#">HOME</a></li>
@@ -12,16 +11,21 @@ function Footer() {   return(
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </div>
-       <div className="footer__socialMedia">
+        <div className="footer__socialMedia">
             <ul>
                 <li>
-                    <a href="" className="icon-button github">
+                    <a href="https://github.com/OR173" className="icon-button github">
                         <i className="fa-brands fa-github"></i>
                     </a>
                 </li>
                 <li>
                     <a href="" className="icon-button linkedin">
                         <i className="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=51925705427" className="icon-button linkedin">
+                        <i className="fa-brands fa-whatsapp"></i>   
                     </a>
                 </li>
                 <li>

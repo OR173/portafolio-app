@@ -1,5 +1,4 @@
 
-import Nav from './componentes/Nav.jsx'
 import Saludo from './componentes/Saludo.jsx'
 import Skill from './componentes/Skill.jsx'
 import Proyectos from './componentes/Proyectos.jsx'
@@ -10,9 +9,6 @@ function App() {
   return (
     
     <>
-      <header>
-        {/* <Nav /> */}
-      </header>
       <main>
         <Saludo />
         <Skill />

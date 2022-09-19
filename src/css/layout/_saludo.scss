@@ -7,7 +7,7 @@
 
         padding: 3rem;
         text-align: center;
-
+        
     }
 
     .saludo__text{ 
@@ -17,25 +17,21 @@
         justify-content: center;
         
         width: 100%;
-        padding-right: 1rem;
-
 
     }
 
-    h1 {
-        margin-left: 3rem;
-    }
 
 }
 
 .profile-image{
     background-image: url("./img/fotoperfil2.png");
     background-repeat: no-repeat;
+    background-size: cover;
 
-}
+    width: 300px;
+    height: 300px;
+    
 
-.active_barss{
-    margin-top: 30rem;
 }
 
 .saludo__btn {
@@ -64,3 +60,21 @@
         background-color: $color_3;
     }
 }
+
+.logo {
+    
+    font-family: 'Comforter Brush', 'Sharp Sans', cursive;
+    font-size: 5rem;
+    margin: 0 0.5rem;
+    color: $color_letra;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 576px) { 
+
+    .saludo{
+        grid-template-columns: 1fr;
+    }
+    
+ }

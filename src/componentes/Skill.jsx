@@ -3,9 +3,7 @@ function Skill() {   return(
 
 <section className="contenedores">
     <div className=" skill__tecnologias">
-        <h2>Tecnologias manejadas</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, culpa? Temporibus laboriosam odio
-            ipsa ab eligendi</p>
+        <h2>HABILIDADES / SKILLS</h2>
         <ul className="software-skill">
             <li className="software-skill-inline">
                 <i className="fa-brands fa-html5"></i>
