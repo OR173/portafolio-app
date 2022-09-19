@@ -584,13 +584,9 @@ p {
 }
 
 .footer {
-  background-color: tomato;
-  position: relative;
   margin: 10rem 0 0 0;
 }
 .footer h1 {
-  background-color: blue;
-  position: absolute;
   font-family: "Bakbak One", cursive;
   font-weight: bold;
   font-size: 3rem;
@@ -600,24 +596,21 @@ p {
   margin: 1.5rem 0 0 0;
   color: #fff;
 }
-
-.footer__nav {
-  background-color: red;
-  position: absolute;
+.footer .footer__nav {
   text-align: center;
-  margin-top: 10rem;
+  margin: 1rem 0;
 }
-.footer__nav ul {
+.footer .footer__nav ul {
+  list-style: none;
   display: flex;
   justify-content: center;
-  align-items: center;
-  list-style: none;
+  flex-flow: row wrap;
 }
-.footer__nav ul li {
-  margin: 1rem 4rem;
+.footer .footer__nav ul li {
+  margin: 1rem;
   cursor: pointer;
 }
-.footer__nav ul li a {
+.footer .footer__nav ul li a {
   text-decoration: none;
   color: #fff;
   font-family: "Rubik", "Arial", "sans-serif";
@@ -625,24 +618,23 @@ p {
   font-weight: 600;
   opacity: 0.7;
 }
-
-.footer__socialMedia {
-  margin-top: 2rem;
+.footer .footer__socialMedia {
+  top: 8rem;
 }
-.footer__socialMedia ul {
+.footer .footer__socialMedia ul {
   display: flex;
   flex-direction: row;
   list-style: none;
   justify-content: center;
 }
-.footer__socialMedia ul li {
+.footer .footer__socialMedia ul li {
   margin: 1rem;
 }
-.footer__socialMedia ul li a {
+.footer .footer__socialMedia ul li a {
   text-decoration: underline;
   cursor: pointer;
 }
-.footer__socialMedia ul li a:hover {
+.footer .footer__socialMedia ul li a:hover {
   background-color: rgba(149, 120, 29, 0.8);
 }
 
@@ -660,7 +652,7 @@ p {
 }
 
 .footer__copyright h3 {
-  margin: 3rem 0;
+  margin: 3rem 0 1rem 0;
   font-size: 1.5rem;
   font-weight: 400;
   text-align: center;

@@ -1,12 +1,10 @@
 
 .footer{   
-    background-color: tomato;
-    position: relative;
-
+   
     margin: 10rem 0 0 0; 
 
-    h1{         background-color: blue;
-        position: absolute;
+    h1{     
+     
         font-family: $myNombre;
         font-weight: bold;
         font-size: 3rem;
@@ -19,67 +17,68 @@
         color: $color_letra;
 
     }
-}
 
-.footer__nav{   background-color: red;
-
-    position: absolute;
-    text-align: center;
-    margin-top: 10rem;
+    .footer__nav{   
     
-    ul{ 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
+        text-align: center;
+        margin: 1rem 0;
         
-        li { 
-            margin: 1rem 4rem;
-            cursor: pointer;
+        ul{ 
+            list-style: none;
 
-            a{  
-                text-decoration: none;
-                color: $color_letra;
-                font-family: $letra_parrafos;   
-                font-size: 1.2rem;
-                font-weight: 600;
-                opacity: 0.7;
-            }
-        }
-    }
-
-
-}
-
-
-.footer__socialMedia {
-
-    margin-top: 2rem;
-
-    ul {    
-
-        display: flex;
-        flex-direction: row;
-        
-        list-style: none;   
-        justify-content: center;
-
-        li{
-            margin: 1rem;
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
             
-            a {
-                text-decoration: underline;
+            li { 
+                margin: 1rem;
                 cursor: pointer;
-        
-                &:hover {
-                    background-color: $color_3;
-        
+    
+                a{  
+                    text-decoration: none;
+                    color: $color_letra;
+                    font-family: $letra_parrafos;   
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    opacity: 0.7;
                 }
             }
         }
+    }
 
+    .footer__socialMedia {
+   
+        top: 8rem;
+    
+        ul {    
+    
+            display: flex;
+            flex-direction: row;
+            
+            list-style: none;   
+            justify-content: center;
+    
+            li{
+                margin: 1rem;
+                
+                a {
+                    text-decoration: underline;
+                    cursor: pointer;
+            
+                    &:hover {
+                        background-color: $color_3;
+            
+                    }
+                }
+            }
+    
+        }
     }
 }
+
+
+
+
 
 .icon-button {
 
@@ -98,7 +97,7 @@
 .footer__copyright{ 
 
     h3{
-        margin: 3rem 0;
+        margin: 3rem 0 1rem 0;
         font-size: 1.5rem;
         font-weight: 400;
         text-align: center;

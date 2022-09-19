@@ -6,13 +6,13 @@ function Footer() {   return(
         <h1>orestes alejandro fleitas méndez</h1>
         <div className="footer__nav">
             <ul>
-                <li><a href="#">home</a></li>
+                <li><a href="#">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">PROJECTS</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </div>
-        <div className="footer__socialMedia">
+       <div className="footer__socialMedia">
             <ul>
                 <li>
                     <a href="" className="icon-button github">
